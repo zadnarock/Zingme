@@ -154,7 +154,7 @@ export const ZingDemo: React.FC = () => {
                <div className="space-y-1 overflow-hidden">
                  <p className="opacity-50">$ init_zing_engine --v2.5</p>
                  <p className="opacity-75 truncate">$ processing_mood: "{mood}"</p>
-                 <p className="text-white animate-pulse"> > {loadingText}</p>
+                 <p className="text-white animate-pulse"> &gt; {loadingText}</p>
                </div>
              </div>
           )}
